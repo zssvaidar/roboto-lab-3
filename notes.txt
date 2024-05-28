@@ -1,0 +1,9 @@
+curl -o rcc https://downloads.robocorp.com/rcc/releases/latest/linux64/rcc
+chmod a+x rcc
+sudo mv rcc /usr/local/bin/
+
+sudo apt install qtbase5-dev qt5-qmake
+
+rcc create example
+cd example
+../rcc run
