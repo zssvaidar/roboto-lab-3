@@ -95,6 +95,10 @@
                 //"foreground": "#aaaaaa"
             }
         }
-    }
+    },
+    "python.terminal.activateEnvironment": false,
+    "python.analysis.extraPaths": [
+        "/home/aid/Desktop/roboto/app1/."
+    ]
     
 }

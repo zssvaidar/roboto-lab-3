@@ -19,7 +19,7 @@ def solve_challenge():
     Downloads the source data excel and uses Playwright to solve rpachallenge.com from challenge
     """
     browser.configure(
-        browser_engine="chromium",
+        browser_engine="chrome",
         screenshot="only-on-failure",
         headless=True,
     )
